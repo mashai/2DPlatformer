@@ -1,0 +1,54 @@
+LEVEL 1
+
+@level data
+groundlevel 425
+background assets\background.png
+healthbar assets\healthbarsheet.png
+
+@image data
+assets\playersprite.png 2
+assets\enemy1sheet.png 16
+assets\enemy2sheet.png 16
+assets\demonsheet.png 4
+assets\healthbarsheet.png 16
+assets\background.png 1
+assets\sign.png 1
+assets\rock.png 1
+assets\health.png 1
+assets\bonus.png 1
+assets\diamond.png 1
+assets\bullet.png 1
+
+@max entities
+enemy 10
+flyingenemy 10
+object 10
+pickup 10
+bullet 10
+
+@entity data
+Player 300 425 assets\playersprite.png
+startObject 100 425 assets\sign.png
+walkingEnemy 600 425 assets\enemy1sheet.png
+collideObject 700 425 assets\rock.png
+walkingEnemy 1300 425 assets\enemy1sheet.png
+healthPickUp 1600 425 assets\health.png
+armouredEnemy 1600 425 assets\enemy2sheet.png
+collideObject 1700 425 assets\rock.png
+bonusPickUp 1900 425 assets\bonus.png
+collideObject 2000 425 assets\rock.png
+FlyingEnemy 2000 200 assets\demonsheet.png
+armouredEnemy 2300 425 assets\enemy2sheet.png
+healthPickUp 2400 425 assets\health.png
+armouredEnemy 2700 425 assets\enemy2sheet.png
+FlyingEnemy 3200 200 assets\demonsheet.png
+collideObject 3000 425 assets\rock.png
+bonusPickUp 3200 250 assets\bonus.png
+walkingEnemy 3400 425 assets\enemy1sheet.png
+bonusPickUp 3280 250 assets\bonus.png
+collideObject 3500 425 assets\rock.png
+walkingEnemy 3700 425 assets\enemy1sheet.png
+goalPickUp 4000 425 assets\diamond.png
+startObject 4100 425 assets\sign.png
+
+@end
