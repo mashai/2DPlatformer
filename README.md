@@ -4,7 +4,7 @@
 Source code for a C++ platformer I did during my 2nd year of University.
 
 <br/>
-![Alt text](https://github.com/mashai/2DPlatformer/blob/master/Demo/screens.jpg)
+![Alt text](Demo/screens.jpg)
 <br/>
 <br/>
 
